@@ -1,0 +1,93 @@
+-target:library
+-i:UnityEngine
+-i:System.Collections
+-base:UnityEngine.MonoBehaviour
+-nowarn:BCW0016
+-nowarn:BCW0003
+-method:Main
+-out:Temp/Assembly-UnityScript.dll
+-x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-debug
+-define:UNITY_4_5_3
+-define:UNITY_4_5
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-define:UNITY_PRO_LICENSE
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:Assets/Plugins/WiimoteLib.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-i:UnityEditor
+"Assets/Scripts/Soldier Scripts/Misc/autoDestroy.js"
+"Assets/Scripts/Soldier Scripts/Misc/bulletHoleProperty.js"
+"Assets/Scripts/Soldier Scripts/Misc/externalCamera.js"
+"Assets/Scripts/Soldier Scripts/Misc/fadeParticles.js"
+"Assets/Scripts/Soldier Scripts/Misc/flyingSpark.js"
+"Assets/Scripts/Soldier Scripts/Misc/game.js"
+"Assets/Scripts/Soldier Scripts/Misc/health.js"
+"Assets/Scripts/Soldier Scripts/Misc/laserSight/laserDust.js"
+"Assets/Scripts/Soldier Scripts/Misc/laserSight/laserLine.js"
+"Assets/Scripts/Soldier Scripts/Misc/laserSight/laserPoint.js"
+"Assets/Scripts/Soldier Scripts/Misc/laserSight/laserSight.js"
+"Assets/Scripts/Soldier Scripts/Misc/particleAutoDestroy.js"
+"Assets/Scripts/Soldier Scripts/Misc/platform.js"
+"Assets/Scripts/Soldier Scripts/Misc/shadow.js"
+"Assets/Scripts/Soldier Scripts/Misc/spark.js"
+"Assets/Scripts/Soldier Scripts/Misc/triggerChildrenCollider.js"
+"Assets/Scripts/Soldier Scripts/guns/bulletCase.js"
+"Assets/Scripts/Soldier Scripts/guns/bulletCaseGenerator.js"
+"Assets/Scripts/Soldier Scripts/guns/bulletHole.js"
+"Assets/Scripts/Soldier Scripts/guns/bulletHoleHeat.js"
+"Assets/Scripts/Soldier Scripts/guns/bulletTrace.js"
+"Assets/Scripts/Soldier Scripts/guns/bulletTraceGenerator.js"
+"Assets/Scripts/Soldier Scripts/guns/dustCloud.js"
+"Assets/Scripts/Soldier Scripts/guns/dustCloudGenerator.js"
+"Assets/Scripts/Soldier Scripts/guns/gun.js"
+"Assets/Scripts/Soldier Scripts/guns/gunSelector.js"
+"Assets/Scripts/Soldier Scripts/guns/muzzleFlash.js"
+"Assets/Scripts/Soldier Scripts/guns/muzzleFlashGenerator.js"
+"Assets/Scripts/Soldier Scripts/ik/ikArmController.js"
+"Assets/Scripts/Soldier Scripts/ik/inverseKinematics.js"
+"Assets/Scripts/Soldier Scripts/sentryGun/sentryGun.js"
+"Assets/Scripts/Soldier Scripts/sentryGun/spinningTurret.js"
+"Assets/Scripts/Soldier Scripts/soldier/crosshair.js"
+"Assets/Scripts/Soldier Scripts/soldier/crouchController.js"
+"Assets/Scripts/Soldier Scripts/soldier/skeletonToCharacter.js"
+"Assets/Scripts/Soldier Scripts/soldier/smoothWorldPosition.js"
+"Assets/Scripts/Soldier Scripts/soldier/soldierAim.js"
+"Assets/Scripts/Soldier Scripts/soldier/soldierAnimation.js"
+"Assets/Scripts/Soldier Scripts/soldier/soldierCamera.js"
+"Assets/Scripts/Soldier Scripts/soldier/soldierLOD.js"
+"Assets/Scripts/Soldier Scripts/soldier/soldierMovement.js"
+"Assets/Scripts/Soldier Scripts/soldier/weaponController.js"
